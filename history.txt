@@ -1,0 +1,500 @@
+   36  scp proba1.txt ec2-user@linux.itcareerhub.de:/opt/250425-ptm/svetlana.r/hello1.txt
+   37  scp proba1.txt ec2-user@linux.itcareerhub.de:/opt/250425-ptm/svetlana.r
+   38  ssh ec2-user@linux.itcareerhub.de
+   39  [200~
+   40  ssh ec2-user@linux.itcareerhub.de
+   41  ssh ec2-user@linux.itcareerhub.de
+   42  ssh ec2-user@linux.itcareerhub.de
+   43  exit
+   44  ssh ec2-user@linux.itcareerhub.de
+   45  ps
+   46  ps -ef
+   47  ssh ec2-user@linux.itcareerhub.de
+   48  exit
+   49  ssh ec2-user@linux.itcareerhub.de
+   50  cd /opt/250425-ptm
+   51  cd /opt/250425-ptm/svetlana.r
+   52  cd /opt
+   53  ssh ec2-user@linux.itcareerhub.de
+   54  scp ec2-user@linux.itcareerhub.de:/opt/250425-ptm/svetlana.r/.process_management .
+   55  ssh ec2-user@linux.itcareerhub.de
+   56  exit
+   57  ssh ec2-user@linux.itcareerhub.de
+   58  ssh ec2-user@linux.itcareerhub.de
+   59  exit
+   60  history
+   61  ssh ec2-user@linux.itcareerhub.de
+   62  exit
+   63  ssh ec2-user@linux.itcareerhub.de
+   64  cd
+   65  cat .ssh/cat id_ed25519.pub
+   66  cat id_ed25519.pub
+   67  cat .ssh/
+   68  cd
+   69  cat id_ed25519.pub
+   70  cat .ssh/id_ed25519.pub
+   71  cd
+   72  mkdir 0206
+   73  ssh ec2-user@linux.itcareerhub.de
+   74  exit
+   75  cd 0206
+   76  echo "# 0206" >> README.md
+   77  git init
+   78  ls -la
+   79  git status
+   80  git add .
+   81  git status
+   82  git commit -m "added new file README.md"
+   83  git config --global user.email "il4.svet@gmail.com"
+   84  git config --global user.name "RybakSvt"
+   85  git commit -m "added new file README.md"
+   86  git branch -M mail
+   87  git branch -M main
+   88  git remote add origin git@github.com:RybakSvt/0206.git
+   89  git push -u origin main
+   90  ssh ec2-user@linux.itcareerhub.de
+   91  mkdir git_intro
+   92  cd git_intro
+   93  git init
+   94  [200~echo "# git_intro" >> README.md
+   95  cat README.md
+   96  ls -la
+   97  echo "# my HW 8" >> README.md
+   98  cat README.md
+   99  ls -l
+  100  git status
+  101  git add photo_.jpg README.md
+  102  git status
+  103  git commit -m "added 2 files (README.md, photo_.jpg)"
+  104  git branch -M main
+  105  git branch
+  106  remote add origin git@github.com:RybakSvt/git_intro.git
+  107  git remote add origin git@github.com:RybakSvt/git_intro.git
+  108  git push -u origin main
+  109  exit
+  110  cd
+  111  git branch
+  112  cd 0506
+  113  git branch
+  114  ls -la
+  115  cd ..
+  116  mkdir 1006
+  117  cd 1006
+  118  git init
+  119  ls -la
+  120  touch file.txt
+  121  ls -la
+  122  git branch
+  123  git status
+  124  git add file.txt
+  125  git status
+  126  git commit -m "new file"
+  127  git status
+  128  git branch
+  129  git branch -M main
+  130  git remout -v
+  131  git remout add origin git@github.com:RybakSvt/1006.git
+  132  git remout -v
+  133  git remote add origin git@github.com:RybakSvt/1006.git
+  134  git remote -v
+  135  git push -u origin main
+  136  git push -- force
+  137  git push -- f
+  138  git push -- set-upstream origin main
+  139  git pull
+  140  git pull origin main
+  141  gi status
+  142  git status
+  143  git fetch
+  144  git status
+  145  git fetch origin main
+  146  git status
+  147  ls -la
+  148  git merge origin/main
+  149  git status
+  150   ls -la
+  151  git pull origin main
+  152  git pull origin main —allow-unrelated-histories
+  153  git config pull.rebase false
+  154  git pull origin main —allow-unrelated-histories
+  155  git pull origin main --allow-unrelated-histories
+  156  ls -la
+  157  git status
+  158  git log
+  159  git push -u origin main
+  160  pwd
+  161  git status
+  162  git branch
+  163  [200~
+  164  git checkout -b test
+  165  gi branch
+  166  git branch
+  167  git log
+  168  touch test.txt
+  169  git status
+  170  git add .
+  171  git commit -m "added file test.txt"
+  172  git log
+  173  cd test
+  174  ls -la
+  175  git status
+  176  cd
+  177  git status
+  178  ls -la
+  179  git branch
+  180  git log
+  181  cd
+  182  git status
+  183  git branch -d test
+  184  git branch -D test
+  185  touch test.txt
+  186  git branch
+  187  ls -la
+  188  cd test
+  189  git branch
+  190  cd 1006
+  191  git status
+  192  git log
+  193  cd 1006
+  194  ls -la
+  195  git branch
+  196  git log
+  197  cd 1006
+  198  git status
+  199  git checkout main
+  200  git merge test
+  201  git branch -d test
+  202  git log --oneline
+  203  git log --oneline --graph
+  204  git branch
+  205  git checkout -b test1
+  206  git branch
+  207  git log
+  208  git status
+  209  git push -u origin test1
+  210  git checkout main
+  211  git merge test1
+  212  git pull origin main
+  213  ls -la
+  214  git log
+  215  git log --oneline --graph 
+  216  git log --graph 
+  217  git log --oneline
+  218  git checkout 283281a
+  219  git switch -c bugfix
+  220  git log
+  221  git switch main
+  222  git log
+  223  git log --oneline --graph 
+  224  git switch bugfix
+  225  ls- la
+  226  ls -la
+  227  rm file.txt
+  228  git add .
+  229  git commit -m "del file.txt"
+  230  gi log
+  231  git log
+  232  git log --oneline
+  233  git switch
+  234  git switch main
+  235  git log --oneline
+  236  git checkout -b gitignore
+  237  nano .gitignore
+  238  git add .
+  239  git commit -m "gitignore"
+  240  git switch main
+  241  git merge origin gitignore
+  242  ls -ls
+  243  ls -la
+  244  git push
+  245  touch 1.rar
+  246  touch 2.txt
+  247  touch 3.txt
+  248  git status
+  249  git add .
+  250  git commit -m "added 3.txt"
+  251  git push
+  252  git status
+  253  git config --global core.exludefile .gitignore
+  254  cd
+  255  git clone git@github.com:RybakSvt/deleting_repo.git
+  256  cd deleting_repo/
+  257  ls -la
+  258  git log
+  259  exit
+  260  cd 1006
+  261  git log
+  262  history
+  263  exit
+  264  ssh ec2-user@linux.itcareerhub.de
+  265  cd
+  266  git branch
+  267  cd 0506
+  268  cd
+  269  cd 0206
+  270  cd
+  271  cd 1006
+  272  cd
+  273  git branch
+  274  cd 0505
+  275  cd 0506
+  276  git branch
+  277  ls -la
+  278  ssh ec2-user@linux.itcareerhub.de
+  279  ls -la
+  280  ls -l | grep '^d'
+  281  ssh ec2-user@linux.itcareerhub.de
+  282  exit
+  283  ssh ec2-user@linux.itcareerhub.de
+  284  ssh ec2-user@linux.itcareerhub.de
+  285  exit
+  286  ssh ec2-user@linux.itcareerhub.de
+  287  exit
+  288  #!/bin/bash
+  289  set e
+  290  USER=Svetlana
+  291  echo "current date: "
+  292  date +%D
+  293  echo "hello $USER"
+  294  echo "working from: "
+  295  pwd
+  296  echo "number of processes named bioset: "
+  297  ps -ef | grep -w 'bioset' | grep -v grep | wc -l
+  298  echo "permissions to the /etc/passwd file: "
+  299  ls -la /etc | grep -w "passwd" | grep -v passwd- |awk '{print $1}'
+  300  #ls -la /etc | awk '$NF == "passwd" { print $1 }'
+  301   
+  302  ssh ec2-user@linux.itcareerhub.de
+  303  exit
+  304  cd /opt/250425-ptm/svetlana.r
+  305  ssh ec2-user@linux.itcareerhub.de
+  306  scp ec2-user@linux.itcareerhub.de:/opt/250425-ptm/svetlana.r/myfirstbashscript.sh .
+  307  cd
+  308  mkdir -p git-branch
+  309  cd /git-branch
+  310  cd git-branch
+  311  git init
+  312  echo "# git-branch >> README.md
+  313  echo "# git-branch" >> README.md
+  314  ls-la
+  315  ls -la
+  316  git add README.md
+  317  git status
+  318  git commit -m "added 1 file README.md"
+  319  git status
+  320  git status
+  321  ls -la
+  322  git branch -M main
+  323  git remote add origin git@github.com:RybakSvt/git-branch.git
+  324  git push -u origin main
+  325  git log
+  326  pwd
+  327  git branch
+  328  git checkout -b gitignore
+  329  git branch
+  330  git status
+  331  git log
+  332  touch .gitignore
+  333  ls -la
+  334  nano .gitignore
+  335  git status
+  336  git add .
+  337  git status
+  338  git commit -m "added 1 file .gitignore
+  339  git commit -m "added 1 file" .gitignore
+  340  git log
+  341  git switch main
+  342  ls -la
+  343  git log
+  344  git merge .gitignore
+  345  git merge git-branch
+  346  git branch
+  347  git merge origin git-branch
+  348  git switch main
+  349  git merge origin git-branch
+  350  git checkout main
+  351  git checkout origin main
+  352  git checkout main
+  353  git branch
+  354  ls -la
+  355  git merge git-branch
+  356  ls -la
+  357  git log
+  358  git merge git-branch
+  359  git log --one line
+  360  git log --oneline
+  361  git log --oneline --graph
+  362  git merge origin git-branch
+  363  branch git-branch
+  364  git branch
+  365  git merge origin gitignore
+  366  git merge gitignore
+  367  git log
+  368  ls -la
+  369  git log --oneline
+  370  git log --oneline --graph
+  371  git push
+  372  git branch -d gitignore
+  373  git log --oneline
+  374  git log --oneline --graph
+  375  git branch
+  376  ls -la
+  377  exit
+  378  mkdir test
+  379  cd test
+  380  git init
+  381  branch -m main
+  382  git branch -m main
+  383  touch file.txt
+  384  echo "hjhjkjk" file2.txt
+  385  echo "hjhjkjk" >> file2.txt
+  386  git status
+  387  git add .
+  388  git status
+  389  git rm --cached file.txt
+  390  git status
+  391  git add .
+  392  git status
+  393  git commit -m "Added 2 files"
+  394  git branch
+  395  git branch -b bugfix
+  396  git checkout -b bugfix
+  397  ls -la
+  398  touch README.md
+  399  git add . 
+  400  git commit -m "added file README.md"
+  401  nano .gitignore
+  402  git status
+  403  git add .
+  404  git commit -m "added file .gitignore"
+  405  git status
+  406  git branch main
+  407  git switch main
+  408  git merge bugfix
+  409  ls -la
+  410  git status
+  411  git log
+  412  git log --oneline
+  413  git log --oneline -graph
+  414  git log --oneline --graph
+  415  >> file.txt
+  416  git commit -am "changed file.txt"
+  417  git add .
+  418  git commit -m "changed file.txt"
+  419  >> file.txt
+  420  git status
+  421  rm file.txt
+  422  git status
+  423  git add .
+  424  git commit -m "rm file.txt"
+  425  git log --oneline --graph
+  426  git log --graph
+  427  git status
+  428  git log
+  429  ls -la
+  430  cd ..
+  431  rm -r test
+  432  rm -rf test
+  433  mkdir testing && cd testing && git init
+  434  git branch -m main
+  435  echo "Привет" > text.txt
+  436  git add .
+  437  ls
+  438  git add .
+  439  git status
+  440  git commit -m "first commit in main"
+  441  git checkout -b feature 
+  442  echo "Это новая строка из feature" >> text.txt
+  443  git add .
+  444  git commit -m "second commit in feature"
+  445  git switch main
+  446  echo “new line in main" >> text.txt
+  447  cd 
+  448  cd testing
+  449  git status
+  450  echo "new line in main" >> text.txt
+  451  git add .
+  452  git commit -m "second commit in main"
+  453  git merge feature 
+  454  git status
+  455  nano text.txt
+  456  git status
+  457  git add .
+  458  git commit -m "fixed file.txt"
+  459  git status
+  460  git log --graph
+  461  git log --graph --oneline
+  462  cd ..
+  463  cd git-branch
+  464  touch new.txt
+  465  git add .
+  466  git commit -m "added new.txt"
+  467  git push
+  468  git fetch
+  469  git status
+  470  git merge origin/main
+  471  ls -la
+  472  exit
+  473  cd
+  474  tree
+  475  ls -la
+  476  exit
+  477  cd
+  478  mkdir -p 1906
+  479  cd 1906
+  480  git init
+  481  ls -la
+  482  echo "# 1906" >> README.md
+  483  ls -la
+  484  nano README.md
+  485  git status
+  486  git add README.md photo_.jpg
+  487  git status
+  488  git commit -m "added 2 files README.md photo_.jpg"
+  489  git branch -M main
+  490  git remote add origin git@github.com:RybakSvt/1906.git
+  491  git branch
+  492  git push -u origin main
+  493  cd
+  494  cd
+  495  git branch
+  496  exit
+  497  cd
+  498  mkdir -p git-branch
+  499  cd git-branch
+  500  git init
+  501  ls -la
+  502  git branch -M main
+  503  echo "# my HW 10" >> README.md
+  504  git status
+  505  git add .
+  506  git status
+  507  git commit -m "added file README.md"
+  508  git remote add origin git@github.com:RybakSvt/git-branch.git
+  509  git push -u origin main
+  510  git checkout -b gitignore
+  511  nano .gitignore
+  512  git add .
+  513  git commit -m "added file .gitignire"
+  514  ls -la
+  515  git push -u origin gitignore
+  516  cd
+  517  cd
+  518  cd
+  519  cd
+  520  git clone git@github.com:RybakSvt/2306.git
+  521  cd 2306/
+  522  ls -la
+  523  git checkout -b feature
+  524  git branch
+  525  ls -la
+  526  nano README.md
+  527  nano .gitignore
+  528  git add .
+  529  git commit -m "Changed 2 files README.md .gitignore"
+  530  git push -u origin feature
+  531  git --amend
+  532  git commit --amend
+  533  git switch main
+  534  git merge feature
+  535  history > history.txt
